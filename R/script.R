@@ -34,7 +34,6 @@ for (file in files) {
   cleaned <- rbind(cleaned, row)
 }
 
-print(cleaned)
 
 write.csv(cleaned, "data/clean/cleaned.csv")
 
